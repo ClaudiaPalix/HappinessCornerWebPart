@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "happiness-corner-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/happinessCorner/HappinessCornerWebPart.js",
+          "manifest": "./src/webparts/happinessCorner/HappinessCornerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HappinessCornerWebPartStrings": "lib/webparts/happinessCorner/loc/{locale}.js"
+  }
+}

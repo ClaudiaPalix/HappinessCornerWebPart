@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "happiness-corner-client-side-solution",
+    "id": "6c6fb9ca-963f-4a3b-9be3-a703add023ff",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "happiness-corner description"
+      },
+      "longDescription": {
+        "default": "happiness-corner description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "happiness-corner Feature",
+        "description": "The feature that activates elements of the happiness-corner solution.",
+        "id": "d4a66d21-598d-4c3f-8731-d299841faa02",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/happiness-corner.sppkg"
+  }
+}
